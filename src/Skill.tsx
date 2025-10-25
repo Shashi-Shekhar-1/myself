@@ -5,9 +5,11 @@ function Skill() {
     setSkill("I know HTML,CSS and \n I am Learning JS & React");
   };
   return (
-    <div style={{ color: "blue" }}>
-      <h2>{skill}</h2>
-      <button onClick={mySkill}>About Skill!!</button>
+    <div style={{ color: "Green" }}>
+      <center>
+        <h2>{skill}</h2>
+        <button onClick={mySkill}>About Skill!!</button>
+      </center>
     </div>
   );
 }

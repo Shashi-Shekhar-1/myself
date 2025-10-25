@@ -1,4 +1,5 @@
 import Intro from "./Intro";
+import Toggle from "./Toggle";
 import Skill from "./Skill";
 import Education from "./Education";
 import "./App.css";
@@ -9,6 +10,7 @@ function App() {
       <Intro />
       <Education />
       <Skill />
+      <Toggle />
     </div>
   );
 }
