@@ -4,11 +4,7 @@ function Education() {
 
   const myEducation = () => {
     setEducation(
-      <div style={{ color: "red" }}>
-        Matriculation - V.P.M Gyan Niketan School <br /> Intermediat- D.P.S
-        Ranchi
-        <br /> B.tech- B.I.T Sindri,Current Year 1st"
-      </div>
+      "Matriculation - V.P.M Gyan Niketan School ,,Intermediat -D.P.S Ranchi ,,B.tech- B.I.T Sindri,Current Year 1st"
     );
   };
   return (
