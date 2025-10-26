@@ -5,6 +5,7 @@ import Input from "./Input";
 import Controlled from "./Controlled";
 import Checkboxes from "./Checkboxes";
 import Clock from "./Clock";
+import Radio from "./Radio";
 
 import Education from "./Education";
 import "./App.css";
@@ -21,6 +22,7 @@ function App() {
       <Input />
       <Controlled />
       <Checkboxes />
+      <Radio />
     </div>
   );
 }

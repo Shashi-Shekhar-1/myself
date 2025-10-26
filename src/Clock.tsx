@@ -9,7 +9,15 @@ const Clock = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div>
+    <div
+      style={{
+        border: "5px solid green",
+        color: "red",
+        marginLeft: "600px",
+        marginRight: "600px",
+        padding: "5px 40px",
+      }}
+    >
       <h1>{time}</h1>
     </div>
   );

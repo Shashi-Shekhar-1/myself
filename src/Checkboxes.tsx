@@ -12,7 +12,14 @@ function Checkboxes() {
   };
 
   return (
-    <div>
+    <div
+      style={{
+        border: "2px solid black",
+        marginLeft: "900px",
+        paddingLeft: "100px",
+      }}
+    >
+      <h1>Handle Checkbox</h1>
       <h2 style={{ color: "blue" }}>
         <u>Select Your Skill</u>
       </h2>

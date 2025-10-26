@@ -4,7 +4,13 @@ function Controlled() {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
   return (
-    <div>
+    <div
+      style={{
+        border: "2px solid black",
+        marginRight: "900px",
+        paddingLeft: "100px",
+      }}
+    >
       <h1>Controlled Component</h1>
       <input
         type="text"

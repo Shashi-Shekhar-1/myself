@@ -16,7 +16,15 @@ function Toggle() {
   const [display, setDisplay] = useState(false);
 
   return (
-    <div>
+    <div
+      style={{
+        border: "2px solid black",
+        marginLeft: "100px",
+        marginRight: "800px",
+
+        paddingLeft: "50px",
+      }}
+    >
       <center>
         <h2>Toggle In React JS</h2>
         <u>

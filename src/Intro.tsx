@@ -11,7 +11,13 @@ function Intro() {
     );
   };
   return (
-    <div>
+    <div
+      style={{
+        border: "2px solid black",
+        marginLeft: "900px",
+        paddingLeft: "100px",
+      }}
+    >
       <center>
         <u>
           <h1>I am Learning useState</h1>

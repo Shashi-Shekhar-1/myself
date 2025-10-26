@@ -9,7 +9,14 @@ function Education() {
   };
 
   return (
-    <div>
+    <div
+      style={{
+        color: "Green",
+        border: "2px solid black",
+        marginLeft: "900px",
+        paddingLeft: "100px",
+      }}
+    >
       <center>
         <h2>{education}</h2>
         <button onClick={myEducation}>My Education!!</button>

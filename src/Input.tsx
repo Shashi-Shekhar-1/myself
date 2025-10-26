@@ -2,7 +2,13 @@ import { useState } from "react";
 function Input() {
   const [val, setVal] = useState("Shekhar");
   return (
-    <div>
+    <div
+      style={{
+        border: "2px solid black",
+        marginLeft: "900px",
+        paddingLeft: "100px",
+      }}
+    >
       <center>
         <h1>Get Input & Clear </h1>
         <input
