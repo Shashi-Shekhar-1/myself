@@ -13,6 +13,7 @@ const Clock = () => {
       style={{
         border: "5px solid green",
         color: "red",
+        borderRadius: "20px",
         marginLeft: "600px",
         marginRight: "600px",
         padding: "5px 40px",
